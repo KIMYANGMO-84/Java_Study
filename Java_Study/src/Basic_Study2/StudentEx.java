@@ -15,8 +15,12 @@ public class StudentEx {
 				s1.score = s1.sleep(s1.score);
 			}
 		}
+		if(s1.score >= 70) {
+			System.out.println(s1.score + "점 더욱 열심히 공부하도록");
+		} else {
+			System.out.println(s1.score + "점 때려쳐 ㅅㅂ");
+		}
 		
-		System.out.println(s1.score);
 		
 		
 		

@@ -12,8 +12,8 @@ public class Student {
 	
 	//메소드
 	int study (int score) {
-		System.out.println("공부를 열심히 해서 1점+");
-		score++;
+		System.out.println("공부를 열심히 해서 2점+");
+		score += 2;
 		return score;
 		
 	}
