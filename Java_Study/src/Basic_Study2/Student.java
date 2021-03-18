@@ -1,31 +1,30 @@
 package Basic_Study2;
 
 public class Student {
-	//ÇÊµå
+	//í•„ë“œ
 	String name;
 	int score;
 	
 	Student(){
-		//»ı¼ºÀÚ
+		//ìƒì„±ì
 		score = 50;
 	}
 	
-	//¸Ş¼Òµå
+	//ë©”ì†Œë“œ
 	int study (int score) {
-		System.out.println("°øºÎ¸¦ ¿­½ÉÈ÷ ÇØ¼­ 2Á¡+");
+		System.out.println("ê³µë¶€ë¥¼ ì—´ì‹¬íˆ í•´ì„œ 2ì +");
 		score += 2;
 		return score;
-		
 	}
 	
 	int playGame(int score) {
-		System.out.println("°ÔÀÓÀ» ¿­½ÉÈ÷ ÇØ¼­ 1Á¡-");
+		System.out.println("ê²Œì„ì„ ì—´ì‹¬íˆ í•´ì„œ 1ì -");
 		score--;
 		return score;
 	}
 	
 	int sleep(int score) {
-		System.out.println("Àá¸¸Àá");
+		System.out.println("ì ë§Œì ");
 		return score;
 	}
 

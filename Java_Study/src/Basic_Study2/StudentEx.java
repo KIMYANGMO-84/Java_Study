@@ -16,9 +16,10 @@ public class StudentEx {
 			}
 		}
 		if(s1.score >= 70) {
-			System.out.println(s1.score + "Á¡ ´õ¿í ¿­½ÉÈ÷ °øºÎÇÏµµ·Ï");
+			System.out.println(s1.score + "ì  ë”ìš± ì—´ì‹¬íˆ ê³µë¶€í•˜ë„ë¡");
 		} else {
-			System.out.println(s1.score + "Á¡ ¶§·ÁÃÄ ¤µ¤²");
+			System.out.println(s1.score + "ì  ë•Œë ¤ì³ ã……ã…‚");
+
 		}
 		
 		
@@ -28,6 +29,6 @@ public class StudentEx {
 
 }
 
-//Å¬·¡½ºÀÇ ¿ëµµ
-// 1.¶óÀÌºê·¯¸®(AIP: Application Program Interface)Å¬·¡½º °´Ã¼ »ı¼º ¹× ¸Ş¼Òµå Á¦°ø¿ªÇÒ
-// 2.½ÇÇàÅ¬·¡½º main()¸Ş¼Òµå Á¦°ø ¿ªÇÒ
+//í´ë˜ìŠ¤ì˜ ìš©ë„
+// 1.ë¼ì´ë¸ŒëŸ¬ë¦¬(AIP: Application Program Interface)í´ë˜ìŠ¤ ê°ì²´ ìƒì„± ë° ë©”ì†Œë“œ ì œê³µì—­í• 
+// 2.ì‹¤í–‰í´ë˜ìŠ¤ main()ë©”ì†Œë“œ ì œê³µ ì—­í• 
